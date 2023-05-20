@@ -1,0 +1,161 @@
+/* .mainp{
+    margin-top: 4rem;
+    width: 100%;
+    max-width: extra-large;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2;
+}
+
+.searcher{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.results{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sum{
+    display: flex;
+    flex-direction: column;
+    gap: 3;
+} */
+/* Mainpart.css */
+
+/* App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+  }
+  
+  .head {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .head h1 {
+    font-size: 32px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .black_btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .mainp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+  }
+  
+  .search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .searcher {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .searcher input[type='url'] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: 300px;
+  }
+  
+  .searcher button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .history {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .history div {
+    cursor: pointer;
+    padding: 5px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .sum {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .sumbox {
+    margin-top: 10px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .loading {
+    font-style: italic;
+  }
+  
